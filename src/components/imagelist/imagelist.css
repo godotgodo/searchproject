@@ -1,0 +1,11 @@
+.imagelist-container{
+    box-sizing: border-box;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-auto-rows: 5px;
+}
+.imagelist-container img{
+    width: 300px;
+    object-fit: cover;
+}
